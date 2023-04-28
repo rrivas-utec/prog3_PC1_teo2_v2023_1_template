@@ -29,20 +29,20 @@ static void question_13() {
 static void question_14() {
     FlexMatrix<float, 4, 3> fm1("1|2|3|4|5|6|7|8|9|10|11|12", '|');
     auto fm2 = fm1;
-    fm1.resize(3, 4);
+    fm2.resize(3, 4);
     auto fm3 = fm2;
     fm3.resize(2, 2);
-    cout << "----";
+    cout << "----" << endl;
     cout << fm1;
-    cout << "----";
-    for (int i = 0; i < fm1.rows(); ++i) {
-        for (int j = 0; j < fm1.cols(); ++j)
-            cout << setw(3) << fm1(i, j);
+    cout << "----" << endl;
+    for (int i = 0; i < fm2.rows(); ++i) {
+        for (int j = 0; j < fm2.cols(); ++j)
+            cout << setw(3) << fm2(i, j);
         cout << endl;
     }
-    cout << "----";
+    cout << "----" << endl;
     cout << fm3;
-    cout << "----";
+    cout << "----" << endl;
 }
 
 TEST_CASE("Question #1.1") {
