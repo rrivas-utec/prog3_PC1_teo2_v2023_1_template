@@ -11,7 +11,7 @@
 
 
 ## Question #1 - clases, punteros y sobrecarga de operadores y template de clases (14 points)
-Crear un template de clase `FlexMatrix` que cuente con 3 parámetros: un parámetro `tipo` para definir el tipo de dato de los valores de la matriz, adicionalmente 2 parámetros `no-tipo` que definan las dimensiones iniciales (_rows y columns) de la matriz, debe contar además con un constructor que cuente con 2 parámetros: el primero del tipo `const char*` que recibirá una cadena de caracteres con valores numéricos separados por un carácter el que será definido por un segundo parámetro del tipo `char`.
+Crear un template de clase `FlexMatrix` que cuente con 3 parámetros: un parámetro `tipo` para definir el tipo de dato de los valores de la matriz, adicionalmente 2 parámetros `no-tipo` que definan las dimensiones iniciales (rows y columns) de la matriz, debe contar además con un constructor que cuente con 2 parámetros: el primero del tipo `const char*` que recibirá una cadena de caracteres con valores numéricos separados por un carácter el que será definido por un segundo parámetro del tipo `char`.
 
 los valores numéricos deberán ser almacenados en un arreglo dinámico de dimensión `_rows * columns`.
 
