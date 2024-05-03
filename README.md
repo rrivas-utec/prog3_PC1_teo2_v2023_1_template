@@ -18,7 +18,7 @@ los valores numéricos deberán ser almacenados en un arreglo dinámico de dimen
 El template de clase debe contar con los siguientes métodos y operadores:
 - `rows()` retornaran la cantidad de columnas
 - `cols()` retornaran la cantidad de columnas
-- `resize(int _rows, int _cols)` permitirá redimensionar la matriz, si la dimension se reduce se descarta los valores anteriores y si se incrementa los valores faltantes se completan con ceros.
+- `resize(int rows, int cols)` permitirá redimensionar la matriz, si la dimension se reduce se descarta los valores anteriores y si se incrementa los valores faltantes se completan con ceros.
 - `operador()(int row, int col)` que retorne el valor ubicado en la fila y columna indicada en `row, col`.
 - `begin()` que retorne el puntero al primer valor `(0,0)` de la matriz.
   
