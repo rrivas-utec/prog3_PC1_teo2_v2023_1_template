@@ -16,7 +16,7 @@ Crear un template de clase `FlexMatrix` que cuente con 3 parámetros: un paráme
 los valores numéricos deberán ser almacenados en un arreglo dinámico de dimensión `_rows * columns`.
 
 El template de clase debe contar con los siguientes métodos y operadores:
-- `_rows()` retornaran la cantidad de columnas
+- `rows()` retornaran la cantidad de columnas
 - `cols()` retornaran la cantidad de columnas
 - `resize(int _rows, int _cols)` permitirá redimensionar la matriz, si la dimension se reduce se descarta los valores anteriores y si se incrementa los valores faltantes se completan con ceros.
 - `operador()(int row, int col)` que retorne el valor ubicado en la fila y columna indicada en `row, col`.
